@@ -1,0 +1,893 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+
+
+}
+
+header {
+    border-bottom: 1px solid rgb(97, 96, 96);
+}
+
+
+
+
+
+
+
+.navbar {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222831;
+    scroll-behavior: smooth;
+}
+
+
+
+
+.navbar ul {
+    display: flex;
+    margin-right: 4rem;
+    transition: all 0.3s ease-out;
+
+}
+
+
+.navbar ul li {
+    list-style: none;
+
+}
+
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: 2rem;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+
+
+}
+
+
+.hamberg {
+    font-weight: 900;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+#open {
+    display: none;
+}
+
+#close {
+    display: none;
+}
+
+.navbar i {
+    display: none;
+}
+
+
+
+.home {
+
+    background-color: #222831;
+
+    padding-top: 3rem;
+
+
+
+}
+
+.container-home {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 0rem 10rem;
+}
+
+
+
+
+
+
+.right h1 {
+    font-size: 9rem;
+    text-transform: capitalize;
+    color: white;
+}
+
+
+.right span {
+    color: #00ADB5;
+}
+
+.left {
+    background: url(doodles\ mixed\ round.png);
+    background-repeat: no-repeat;
+
+
+
+}
+
+
+.left img {
+    position: relative;
+    top: 10rem;
+
+    right: 8rem;
+
+}
+
+
+
+.a {
+
+    background-color: #00ADB5;
+    border-radius: 25px;
+    padding: 15px;
+    color: white;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    border: none;
+
+}
+
+
+.b {
+
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+    color: white;
+    background-color: #333841;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    border: none;
+}
+
+
+.b i {
+    margin-left: 15px;
+
+}
+
+
+
+.about {
+    background-color: #222831;
+
+}
+
+.container {
+
+    padding: 0rem 10rem;
+    display: flex;
+    height: 60rem;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+
+
+
+.intro {
+    width: 50%;
+    padding-right: 5rem;
+}
+
+
+.intro h1 {
+    color: white;
+    font-size: 4rem;
+
+    text-transform: capitalize;
+}
+
+.intro span {
+
+    color: #00ADB5;
+}
+
+.intro p {
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+}
+
+
+
+
+
+.img {
+    background: url(doodle\ items.png);
+    background-repeat: no-repeat;
+    padding-left: 5rem;
+    width: 50%;
+
+
+}
+
+.img img {
+    position: relative;
+    top: 10rem;
+    left: 8rem;
+
+}
+
+.projects {
+    background-color: #222831;
+    width: 100%;
+    height: 100%;
+    background: url(Projects\ Page\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container-project {
+
+    padding: 10rem 0;
+    max-width: 1400px;
+    margin: 0 auto;
+
+
+}
+
+.container-project h1 {
+    color: white;
+    font-size: 5rem;
+    padding-left: 1rem;
+    text-transform: capitalize;
+
+
+}
+
+.container-project span {
+    color: #00ADB5;
+
+
+}
+
+
+.card-container {
+    display: flex;
+    gap: 2rem;
+    padding-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+
+.card {
+
+    background: url(Frame\ 11.png);
+
+    padding: 1rem;
+
+
+}
+
+
+
+.contact {
+    background-color: #222831;
+}
+
+
+
+.container-contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10rem 0rem;
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+.container-contact h1 {
+    text-transform: capitalize;
+    color: white;
+    font-size: 5rem;
+}
+
+.container-contact span {
+    color: #00ADB5;
+
+}
+
+.container-contact img {
+    position: relative;
+    left: 12rem;
+}
+
+
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
+
+.contact-item {
+    padding: 1rem;
+    color: white;
+    text-transform: capitalize;
+}
+
+.contact-item button {
+    text-transform: capitalize;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 25px;
+    background-color: #00ADB5;
+    width: 50%;
+    color: white;
+
+}
+
+.contact-item input {
+    margin-top: 1rem;
+    background-color: #2E333C;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 15rem;
+    color: white;
+
+}
+
+.contact-item textarea {
+    margin-top: 1rem;
+    background-color: #2E333C;
+    border: none;
+    border-radius: 10px;
+    resize: none;
+
+
+}
+
+footer {
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222831;
+    border-top: 1px solid rgb(97, 96, 96);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul {
+
+    display: flex;
+}
+
+footer ul li {
+
+    list-style: none;
+}
+
+footer ul li a {
+
+    text-decoration: none;
+    padding: 1rem;
+    margin: 1rem;
+    margin-left: 4px;
+    text-transform: capitalize;
+    color: white;
+    font-size: 1.3rem;
+}
+
+footer ul li a i {
+
+    margin-right: 3px;
+}
+
+.icons i {
+    color: white;
+    padding: 1rem;
+    background-color: #2E333C;
+    border-radius: 25px;
+    margin: 1rem;
+
+}
+
+.icons {
+    padding-top: 1rem;
+
+}
+
+
+
+
+
+
+@media screen and (min-width:200px)and (max-width:799px) {
+
+    #close {
+        display: none;
+    }
+
+    #open {
+        display: block;
+    }
+
+    .navbar ul {
+
+        position: absolute;
+        top: 9rem;
+        background-color: #222831;
+        text-align: center;
+        display: block;
+        width: 100%;
+        height: 50vh;
+        left: -100%;
+
+    }
+
+
+    .navbar i {
+        display: block;
+        margin-right: 3rem;
+    }
+
+
+    .navbar ul li {
+
+        padding-top: 3rem;
+
+
+    }
+
+
+    .navbar ul li a {
+
+        font-size: 1.5rem;
+    }
+
+    .navbar {
+
+        justify-content: space-evenly;
+    }
+
+
+    .right h1 {
+        font-size: 4rem;
+
+    }
+
+    .container-home {
+        padding: 0rem 0rem;
+
+        justify-content: space-evenly;
+
+    }
+
+    .container-home {
+        height: 60rem;
+        flex-direction: column;
+    }
+
+    .a {
+        font-size: 1rem;
+    }
+
+    .b {
+        font-size: 1rem;
+    }
+
+
+
+    .left img {
+
+        height: 20rem;
+        right: 1rem;
+    }
+
+    .container {
+        padding: 0rem 1rem;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+
+    .intro {
+        width: 80%;
+        padding-right: 0rem;
+    }
+
+    .container-project h1 {
+        padding-left: 1rem;
+
+        font-size: 3rem;
+
+    }
+
+
+    .intro h1 {
+        font-size: 2rem;
+    }
+
+    .intro p {
+        font-size: 1rem;
+    }
+
+    .img img {
+        height: 10rem;
+        top: 7rem;
+        left: 0rem;
+    }
+
+
+
+
+    .container-contact h1 {
+
+        font-size: 2.8rem;
+    }
+
+
+    .container-contact img {
+        left: 0;
+        height: 26rem;
+    }
+
+
+    .contact-item input {
+        width: 7.5rem;
+    }
+
+    .contact-item textarea {
+
+        width: 20rem;
+    }
+
+    .container-contact {
+
+        padding: 2rem;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+
+
+    footer ul li a {
+
+        padding: 1rem;
+        margin: 0rem;
+        margin-left: 0px;
+
+
+        font-size: 1rem;
+    }
+
+
+    .icons i {
+
+        padding: 1rem;
+
+
+        margin: 5px;
+    }
+
+
+
+}
+
+@media screen and (min-width:800px)and (max-width:866px) {
+
+    .right h1 {
+        font-size: 3.5rem;
+
+    }
+
+    .navbar ul li a {
+
+        padding: 1rem;
+
+    }
+
+    .container-home {
+
+        height: 40rem;
+
+    }
+
+    .a {
+        font-size: 15px;
+    }
+
+    .b {
+        font-size: 15px;
+    }
+
+
+    .left img {
+
+
+        height: 15rem;
+        right: 0rem;
+    }
+
+
+
+
+    .container {
+        padding: 0rem 3rem;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+
+    .intro {
+        width: 80%;
+        padding-right: 0rem;
+    }
+
+
+
+
+    .img img {
+        height: 15rem;
+        top: 7rem;
+        left: 2rem;
+    }
+
+
+
+
+
+
+
+
+    .container-contact h1 {
+
+        font-size: 4rem;
+    }
+
+
+
+
+    .contact-item input {
+        width: 12rem;
+    }
+
+    .container-contact {
+
+
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+}
+
+
+@media screen and (min-width:867px)and (max-width:929px) {
+    .right h1 {
+        font-size: 3rem;
+
+    }
+
+    .navbar ul li a {
+
+        padding: 1rem;
+
+    }
+
+    .container-home {
+
+        height: 40rem;
+
+    }
+
+    .a {
+        font-size: 1rem;
+    }
+
+    .b {
+        font-size: 1rem;
+    }
+
+
+    .left img {
+
+
+        height: 20rem;
+        right: 0rem;
+    }
+
+    .container {
+        padding: 0rem 3rem;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+
+    .intro {
+        width: 80%;
+        padding-right: 0rem;
+    }
+
+
+
+
+    .img img {
+        height: 15rem;
+        top: 7rem;
+        left: 2rem;
+    }
+
+
+
+
+
+
+    .container-contact h1 {
+
+        font-size: 4rem;
+    }
+
+
+
+
+
+    .contact-item input {
+        width: 12rem;
+    }
+
+    .container-contact {
+
+
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+
+
+}
+
+
+
+@media screen and (min-width:930px)and (max-width:1200px) {
+    .right h1 {
+        font-size: 4rem;
+
+    }
+
+    .container-home {
+
+        height: 35rem;
+
+    }
+
+    .a {
+        font-size: 1rem;
+    }
+
+    .b {
+        font-size: 1rem;
+    }
+
+    .left img {
+
+        height: 20rem;
+        right: 2rem;
+
+    }
+
+    .intro h1 {
+
+        font-size: 3rem;
+
+    }
+
+    .intro p {
+
+        font-size: 1rem;
+
+    }
+
+    .img img {
+        height: 10rem;
+        top: 7rem;
+        left: 3rem;
+    }
+
+    .container {
+        padding: 0rem 3rem;
+
+    }
+
+    .container-contact h1 {
+
+        font-size: 3rem;
+    }
+
+
+    .container-contact img {
+
+        height: 20rem;
+        left: 6rem;
+    }
+
+
+    .contact-item input {
+
+        width: 10rem;
+
+    }
+
+    .container-contact {
+
+        justify-content: space-evenly;
+
+    }
+
+
+
+
+}
+
+
+@media screen and (min-width:1200px) and (max-width:1447px) {
+
+    .right h1 {
+        font-size: 5rem;
+
+    }
+
+    .left img {
+
+        height: 25rem;
+
+    }
+
+    .img img {
+
+        height: 15rem;
+
+    }
+
+    .intro p {
+
+        font-size: 1.2rem;
+
+    }
+
+    .intro h1 {
+
+        font-size: 3.5rem;
+
+    }
+
+
+
+
+}

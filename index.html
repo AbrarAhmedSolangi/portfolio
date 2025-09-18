@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+<body>
+    <header id="home">
+        <nav class="navbar">
+            <div class="logo"><a href="#home">
+                    <img src="Frame 1.png" alt=""></a>
+            </div>
+            <ul id="menulist">
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about me</a></li>
+                <li><a href="#work">projects</a></li>
+                <li><a href="#contact">contact</a></li>
+
+            </ul> <i id="open" class="fa-solid fa-bars hamberg" onclick="showMenu()"></i>
+            <i id="close" class="fa-solid fa-x hamberg " onclick="closemenu() "></i>
+        </nav>
+    </header>
+
+    <div class="home">
+        <div class="container-home">
+            <div class="right">
+                <h1> creative ui <br><span>designer</span></h1>
+                <button class="a">hire me</button>
+                <button class="b">download cv<i class="fa-solid fa-download"></i></button>
+            </div>
+            <div class="left">
+                <img src="Group 2346.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let menulist = document.getElementById("menulist");
+        let openIcon = document.getElementById("open");
+        let closeIcon = document.getElementById("close");
+
+        function showMenu() {
+            menulist.style.left = "0%";
+            openIcon.style.display = "none";
+            closeIcon.style.display = "block";
+        }
+
+        function closemenu() {
+            menulist.style.left = "-100%";
+            openIcon.style.display = "block";
+            closeIcon.style.display = "none";
+        }
+    </script>
+
+
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="intro">
+                <h1>about <span> me </span></h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam laborum quidem fuga facilis,
+                    consequuntur impedit, ipsam, molestiae eveniet nesciunt earum libero. Impedit ullam nihil non, eum
+                    tempora nobis et consequatur!
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam laborum quidem fuga facilis,
+                    consequuntur impedit, ipsam, molestiae eveniet nesciunt earum libero. Impedit ullam nihil non, eum
+                    tempora nobis et consequatur!
+                </p>
+            </div>
+
+            <div class="img">
+                <img src="Group 62.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="projects" id="work">
+        <div class="container-project">
+            <h1>my recent <span>projects</span></h1>
+
+            <div class="card-container">
+
+                <a href="">
+                    <div class="card">
+                        <img src="Course Website Landing Page Thumbnail 1.png" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="card">
+                        <img src="Course Website Landing Page Thumbnail 1.png">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="card">
+                        <img src="Course Website Landing Page Thumbnail 1.png">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="card">
+                        <img src="Course Website Landing Page Thumbnail 1.png" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="card">
+                        <img src="Course Website Landing Page Thumbnail 1.png">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="card">
+                        <img src="Course Website Landing Page Thumbnail 1.png">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="card">
+                        <img src="Course Website Landing Page Thumbnail 1.png">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="card">
+                        <img src="Course Website Landing Page Thumbnail 1.png">
+                    </div>
+                </a>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+
+    <section class="contact" id="contact">
+        <div class="container-contact">
+            <div class="contact-right">
+                <h1>got a project in <br> <span>mind?</span></h1>
+                <img src="Group 2372.png" alt="">
+            </div>
+
+            <div class="contact-left">
+                <form action="">
+                    <div class="flex">
+                        <div class="contact-item">
+                            <label for="">your name</label>
+                            <input type="text">
+                        </div>
+                        <div class="contact-item">
+                            <label for="">your email</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <label for="message">your message</label>
+                        <textarea name="" id="" rows="15" cols="50"></textarea>
+
+                        <button>send message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#home"><i class="fa-solid fa-house"></i>home</a></li>
+            <li><a href="#about"><i class="fa-solid fa-user"></i>about me</a></li>
+            <li><a href="#contact"><i class="fa-solid fa-phone"></i>contact</a></li>
+        </ul>
+        <div class="icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+    </footer>
+
+</body>
+
+
+</html>
